@@ -36,7 +36,7 @@ function createRelatedProductsSlickCarousel(products, currentCountry) {
   }
   products.forEach((product) => {
     const productCardHtml = `
-      <div class="product-card mb-5">
+      <div class="product-card mb-5 mx-5">
         <img src="${product.image}" alt="${
       product.name
     }" class="product-img w-100" />
