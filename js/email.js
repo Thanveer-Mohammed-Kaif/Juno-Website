@@ -15,7 +15,7 @@ function sendEmailIndex() {
   ) {
     alert("Please fill in all the   fields");
   } else {
-    emailjs.send("service_kiyxotg", "template_myl93bo", formData).then(() => {
+    emailjs.send("service_z4ao0v8", "template_sdv31mr", formData).then(() => {
       console.log(
         formData.firstName,
         formData.email,
@@ -49,7 +49,7 @@ function sendEmailContact() {
   ) {
     alert("Please fill in all the   fields");
   } else {
-    emailjs.send("service_kiyxotg", "template_myl93bo", formData).then(() => {
+    emailjs.send("service_kiyxotg", "template_sdv31mr", formData).then(() => {
       console.log(
         formData.firstName,
         formData.email,
@@ -83,7 +83,7 @@ function sendEmailOurService() {
   ) {
     alert("Please fill in all the   fields");
   } else {
-    emailjs.send("service_kiyxotg", "template_myl93bo", formData).then(() => {
+    emailjs.send("service_z4ao0v8", "template_myl93bo", formData).then(() => {
       console.log(
         formData.firstName,
         formData.email,

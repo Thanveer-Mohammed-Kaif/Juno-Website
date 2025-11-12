@@ -1,5 +1,5 @@
 (function () {
-  emailjs.init("Tj8ch3-_L-pzXUVMM"); 
+  emailjs.init("zqUTWt_2j5FWGLG69"); 
 })();
 
 function sendEmailForm(event) {
@@ -115,8 +115,8 @@ formData.selectedServices = selectedServices.length > 0
 
   console.log("Validated Data:", formData);
 
-  const serviceID = "service_kiyxotg";
-  const templateID = "template_rfemca6";
+  const serviceID = "service_z4ao0v8";
+  const templateID = "template_99kwujm";
 
   emailjs
     .send(serviceID, templateID, formData)

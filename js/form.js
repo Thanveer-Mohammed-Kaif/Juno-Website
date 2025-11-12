@@ -49,8 +49,8 @@ function sendEmail(form) {
     refundPolicy: document.getElementById("checkDefault").checked ? "Agreed" : "Not Agreed",
   };
 
-  const serviceID = "service_kiyxotg";
-  const templateID = "template_rfemca6";
+  const serviceID = "service_z4ao0v8";
+  const templateID = "template_99kwujm";
 
   emailjs
     .send(serviceID, templateID, params)
