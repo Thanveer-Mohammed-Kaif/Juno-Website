@@ -138,20 +138,17 @@
                         </p>
                       </div>
                       <h5 class="section-title">Personal Information</h5>
-                      <div class="row mb-4">
-                        <div class="col-md-6">
-                          <label class="form-label required" id="name"
+                        <div class="row mb-4">
+                          <div class="col-md-6">
+                          <label class="form-label required"
                             >Full Name</label
                           >
                           <input
-                            type="text"
                             class="form-control rounded"
+                            placeholder="Enter Your Full name"
+                            id="fullNameCourse"
                             required
                           />
-                          <div class="valid-feedback">Valid Name!</div>
-                          <div class="invalid-feedback">
-                            Please enter a Name.
-                          </div>
                         </div>
                         <div class="col-md-6">
                           <label class="form-label required"
@@ -161,7 +158,7 @@
                             type="date"
                             class="form-control"
                             required
-                            id="age"
+                            id="dobCourse"
                           />
                           <div class="valid-feedback">Valid age!</div>
                           <div class="invalid-feedback">
@@ -170,7 +167,7 @@
                         </div>
                         <div class="col-md-6">
                           <label class="form-label required">Gender</label>
-                          <select class="form-select" required id="gender">
+                          <select class="form-select" required id="genderCourse">
                             <option value="">Select an option</option>
                             <option>Male</option>
                             <option>Female</option>
@@ -187,7 +184,7 @@
                             type="email"
                             class="form-control"
                             required
-                            id="email"
+                            id="emailCourse"
                           />
                           <div class="valid-feedback">Valid Mail!</div>
                           <div class="invalid-feedback">
@@ -202,7 +199,7 @@
                             type="text"
                             class="form-control"
                             required
-                            id="wnumber"
+                            id="wnumberCourse"
                           />
                           <div class="valid-feedback">Valid number!</div>
                           <div class="invalid-feedback">
@@ -215,7 +212,7 @@
                             type="text"
                             class="form-control"
                             required
-                            id="address"
+                            id="addressCourse"
                           />
                           <div class="valid-feedback">Valid address!</div>
                           <div class="invalid-feedback">
@@ -239,13 +236,14 @@
                                 class="form-check-label"
                                 for="checkDefault"
                               >
-                                <input
-                                  class="form-check-input mt-2"
-                                  type="checkbox"
-                                  value=""
-                                  id="checkDefault"
+                               <input 
+                                  type="checkbox" 
+                                  class="form-check-input" 
+                                  name="courseService" 
+                                  value="Birth Karma & Energy Healing" 
                                 />
-                                Birth Karma & Energy Healing
+                                <label>Birth Karma & Energy Healing</label>
+
                               </p>
                               <h6>$ 188</h6>
                             </div>
@@ -257,14 +255,14 @@
                                 class="form-check-label"
                                 for="checkDefault"
                               >
-                                <input
-                                  class="form-check-input mt-2"
-                                  type="checkbox"
-                                  value=""
-                                  id="checkDefault"
+                                <input 
+                                  type="checkbox" 
+                                  class="form-check-input" 
+                                  name="courseService" 
+                                  value="Mindfulness & Breathwork for Anxiety, Focus & Sleep" 
                                 />
-                                Mindfulness & Breathwork for Anxiety, Focus &
-                                Sleep
+                                <label>Mindfulness & Breathwork for Anxiety, Focus & Sleep</label>
+
                               </p>
                               <h6>$ 99</h6>
                             </div>
@@ -276,14 +274,13 @@
                                 class="form-check-label"
                                 for="checkDefault"
                               >
-                                <input
-                                  class="form-check-input mt-2"
-                                  type="checkbox"
-                                  value=""
-                                  id="checkDefault"
+                               <input 
+                                  type="checkbox" 
+                                  class="form-check-input" 
+                                  name="courseService" 
+                                  value="Chakra Healing for Emotional Balance & Energy Flow" 
                                 />
-                                Chakra Healing for Emotional Balance & Energy
-                                Flow
+                                <label>Chakra Healing for Emotional Balance & Energy Flow</label>
                               </p>
                               <h6>$ 188</h6>
                             </div>
@@ -295,13 +292,13 @@
                                 class="form-check-label"
                                 for="checkDefault"
                               >
-                                <input
-                                  class="form-check-input mt-2"
-                                  type="checkbox"
-                                  value=""
-                                  id="checkDefault"
+                                <input 
+                                  type="checkbox" 
+                                  class="form-check-input" 
+                                  name="courseService" 
+                                  value="Inner Child Healing & Self-Love Practices" 
                                 />
-                                Inner Child Healing & Self-Love Practices
+                                <label>Inner Child Healing & Self-Love Practices</label>
                               </p>
                               <h6>$ 188</h6>
                             </div>
@@ -313,14 +310,138 @@
                                 class="form-check-label"
                                 for="checkDefault"
                               >
-                                <input
-                                  class="form-check-input mt-2"
-                                  type="checkbox"
-                                  value=""
-                                  id="checkDefault"
+                                 <input 
+                                  type="checkbox" 
+                                  class="form-check-input" 
+                                  name="courseService" 
+                                  value="Crystal Healing for Empaths & Sensitive Individuals" 
                                 />
-                                Crystal Healing for Empaths & Sensitive
-                                Individuals
+                                <label>Crystal Healing for Empaths & Sensitive Individuals</label>
+                              <h6>$ 99</h6>
+                            </div>
+                            <div
+                              class="d-flex justify-content-between align-items-center mt-4"
+                            >
+                              <p
+                                class="nunitosans"
+                                class="form-check-label"
+                                for="checkDefault"
+                              >
+                                <input 
+                                  type="checkbox" 
+                                  class="form-check-input" 
+                                  name="courseService" 
+                                  value="Energy Protection for Healers, Coaches & Empaths" 
+                                />
+                                <label>Energy Protection for Healers, Coaches & Empaths</label>
+                              </p>
+                              <h6>$ 188</h6>
+                            </div>
+                            <div
+                              class="d-flex justify-content-between align-items-center mt-4"
+                            >
+                              <p
+                                class="nunitosans"
+                                class="form-check-label"
+                                for="checkDefault"
+                              >
+                                <input 
+                                  type="checkbox" 
+                                  class="form-check-input" 
+                                  name="courseService" 
+                                  value="Astrology for Emotional Intelligence & Relationship Insights" 
+                                />
+                                <label>Astrology for Emotional Intelligence & Relationship Insights</label>
+                              </p>
+                              <h6>$ 188</h6>
+                            </div>
+                            <div
+                              class="d-flex justify-content-between align-items-center mt-4"
+                            >
+                              <p
+                                class="nunitosans"
+                                class="form-check-label"
+                                for="checkDefault"
+                              >
+                                <input 
+                                  type="checkbox" 
+                                  class="form-check-input" 
+                                  name="courseService" 
+                                  value="Past Life Regression & Karma Clearing" 
+                                />
+                                <label>Past Life Regression & Karma Clearing</label>
+                              </p>
+                              <h6>$ 188</h6>
+                            </div>
+                            <div
+                              class="d-flex justify-content-between align-items-center mt-4"
+                            >
+                              <p
+                                class="nunitosans"
+                                class="form-check-label"
+                                for="checkDefault"
+                              >
+                                <input 
+                                  type="checkbox" 
+                                  class="form-check-input" 
+                                  name="courseService" 
+                                  value="Soul Contracts & Relationship Healing" 
+                                />
+                                <label>Soul Contracts & Relationship Healing</label>
+                              </p>
+                              <h6>$ 188</h6>
+                            </div>
+                            <div
+                              class="d-flex justify-content-between align-items-center mt-4"
+                            >
+                              <p
+                                class="nunitosans"
+                                class="form-check-label"
+                                for="checkDefault"
+                              >
+                                <input 
+                                  type="checkbox" 
+                                  class="form-check-input" 
+                                  name="courseService" 
+                                  value="Astrology for Career & Relationship Guidance" 
+                                />
+                                <label>Astrology for Career & Relationship Guidance</label>
+                              </p>
+                              <h6>$ 188</h6>
+                            </div>
+                            <div
+                              class="d-flex justify-content-between align-items-center mt-4"
+                            >
+                              <p
+                                class="nunitosans"
+                                class="form-check-label"
+                                for="checkDefault"
+                              >
+                                <input 
+                                  type="checkbox" 
+                                  class="form-check-input" 
+                                  name="courseService" 
+                                  value="Numerology for Life Path, Karmic Debt & Soul Contracts" 
+                                />
+                                <label>Numerology for Life Path, Karmic Debt & Soul Contracts</label>
+                              </p>
+                              <h6>$ 188</h6>
+                            </div>
+                            <div
+                              class="d-flex justify-content-between align-items-center mt-4"
+                            >
+                              <p
+                                class="nunitosans"
+                                class="form-check-label"
+                                for="checkDefault"
+                              >
+                                <input 
+                                  type="checkbox" 
+                                  class="form-check-input" 
+                                  name="courseService" 
+                                  value="Sacred Space Cleansing & Energy Protection Rituals" 
+                                />
+                                <label>Sacred Space Cleansing & Energy Protection Rituals</label>
                               </p>
                               <h6>$ 99</h6>
                             </div>
@@ -332,142 +453,13 @@
                                 class="form-check-label"
                                 for="checkDefault"
                               >
-                                <input
-                                  class="form-check-input mt-2"
-                                  type="checkbox"
-                                  value=""
-                                  id="checkDefault"
+                                 <input 
+                                  type="checkbox" 
+                                  class="form-check-input" 
+                                  name="courseService" 
+                                  value="Herbal Detoxification & Naturopathy Practices" 
                                 />
-                                Energy Protection for Healers, Coaches & Empaths
-                              </p>
-                              <h6>$ 188</h6>
-                            </div>
-                            <div
-                              class="d-flex justify-content-between align-items-center mt-4"
-                            >
-                              <p
-                                class="nunitosans"
-                                class="form-check-label"
-                                for="checkDefault"
-                              >
-                                <input
-                                  class="form-check-input mt-2"
-                                  type="checkbox"
-                                  value=""
-                                  id="checkDefault"
-                                />
-                                Astrology for Emotional Intelligence &
-                                Relationship Insights
-                              </p>
-                              <h6>$ 188</h6>
-                            </div>
-                            <div
-                              class="d-flex justify-content-between align-items-center mt-4"
-                            >
-                              <p
-                                class="nunitosans"
-                                class="form-check-label"
-                                for="checkDefault"
-                              >
-                                <input
-                                  class="form-check-input mt-2"
-                                  type="checkbox"
-                                  value=""
-                                  id="checkDefault"
-                                />
-                                Past Life Regression & Karma Clearing
-                              </p>
-                              <h6>$ 188</h6>
-                            </div>
-                            <div
-                              class="d-flex justify-content-between align-items-center mt-4"
-                            >
-                              <p
-                                class="nunitosans"
-                                class="form-check-label"
-                                for="checkDefault"
-                              >
-                                <input
-                                  class="form-check-input mt-2"
-                                  type="checkbox"
-                                  value=""
-                                  id="checkDefault"
-                                />
-                                Soul Contracts & Relationship Healing
-                              </p>
-                              <h6>$ 188</h6>
-                            </div>
-                            <div
-                              class="d-flex justify-content-between align-items-center mt-4"
-                            >
-                              <p
-                                class="nunitosans"
-                                class="form-check-label"
-                                for="checkDefault"
-                              >
-                                <input
-                                  class="form-check-input mt-2"
-                                  type="checkbox"
-                                  value=""
-                                  id="checkDefault"
-                                />
-                                Astrology for Career & Relationship Guidance
-                              </p>
-                              <h6>$ 188</h6>
-                            </div>
-                            <div
-                              class="d-flex justify-content-between align-items-center mt-4"
-                            >
-                              <p
-                                class="nunitosans"
-                                class="form-check-label"
-                                for="checkDefault"
-                              >
-                                <input
-                                  class="form-check-input mt-2"
-                                  type="checkbox"
-                                  value=""
-                                  id="checkDefault"
-                                />
-                                Numerology for Life Path, Karmic Debt & Soul
-                                Contracts
-                              </p>
-                              <h6>$ 188</h6>
-                            </div>
-                            <div
-                              class="d-flex justify-content-between align-items-center mt-4"
-                            >
-                              <p
-                                class="nunitosans"
-                                class="form-check-label"
-                                for="checkDefault"
-                              >
-                                <input
-                                  class="form-check-input mt-2"
-                                  type="checkbox"
-                                  value=""
-                                  id="checkDefault"
-                                />
-                                Sacred Space Cleansing & Energy Protection
-                                Rituals
-                              </p>
-                              <h6>$ 99</h6>
-                            </div>
-                            <div
-                              class="d-flex justify-content-between align-items-center mt-4"
-                            >
-                              <p
-                                class="nunitosans"
-                                class="form-check-label"
-                                for="checkDefault"
-                              >
-                                <input
-                                  class="form-check-input mt-2"
-                                  type="checkbox"
-                                  value=""
-                                  id="checkDefault"
-                                />
-                                Herbal Detoxification & Naturopathy Practices
+                                <label>Herbal Detoxification & Naturopathy Practices</label>
                               </p>
                               <h6>$ 188</h6>
                             </div>
@@ -482,13 +474,13 @@
                               class="d-flex justify-content-between align-items-center gap-4"
                             >
                               <p class="nunitosans mt-2">
-                                <input
-                                  class="form-check-input mt-1 mx-1"
-                                  type="checkbox"
-                                  value=""
-                                  id="checkDefault"
+                                <input 
+                                  type="checkbox" 
+                                  class="form-check-input" 
+                                  name="courseService" 
+                                  value="Reiki Level 1" 
                                 />
-                                Reiki Level 1
+                                <label>Reiki Level 1</label>
                               </p>
                               <h6>$ 188</h6>
                             </div>
@@ -496,12 +488,13 @@
                               class="d-flex justify-content-between align-items-center gap-4"
                             >
                               <p class="nunitosans mt-2">
-                                <input
-                                  class="form-check-input mt-1 mx-1"
-                                  type="checkbox"
-                                  value=""
-                                  id="checkDefault"
-                                />Reiki Level 2
+                                 <input 
+                                  type="checkbox" 
+                                  class="form-check-input" 
+                                  name="courseService" 
+                                  value="Reiki Level 2" 
+                                />
+                                <label>Reiki Level 2</label>
                               </p>
                               <h6>$ 188</h6>
                             </div>
@@ -509,12 +502,13 @@
                               class="d-flex justify-content-between align-items-center gap-4"
                             >
                               <p class="nunitosans mt-2">
-                                <input
-                                  class="form-check-input mt-1 mx-1"
-                                  type="checkbox"
-                                  value=""
-                                  id="checkDefault"
-                                />Reiki Level 3a (Master Practitioner)
+                               <input 
+                                  type="checkbox" 
+                                  class="form-check-input" 
+                                  name="courseService" 
+                                  value="Reiki Level 3a (Master Practitioner)" 
+                                />
+                                <label>Reiki Level 3a (Master Practitioner)</label>
                               </p>
                               <h6>$ 188</h6>
                             </div>
@@ -522,12 +516,13 @@
                               class="d-flex justify-content-between align-items-center gap-4"
                             >
                               <p class="nunitosans mt-2">
-                                <input
-                                  class="form-check-input mt-1 mx-1"
-                                  type="checkbox"
-                                  value=""
-                                  id="checkDefault"
-                                />Reiki Level 3b (Master Teacher)
+                                <input 
+                                  type="checkbox" 
+                                  class="form-check-input" 
+                                  name="courseService" 
+                                  value="Reiki Level 3b (Master Teacher)" 
+                                />
+                                <label>Reiki Level 3b (Master Teacher)</label>
                               </p>
                               <h6>$ 288</h6>
                             </div>
@@ -535,12 +530,13 @@
                               class="d-flex justify-content-between align-items-center gap-4"
                             >
                               <p class="nunitosans mt-2">
-                                <input
-                                  class="form-check-input mt-1 mx-1"
-                                  type="checkbox"
-                                  value=""
-                                  id="checkDefault"
-                                />Diploma in Bach Flower Therapy
+                                <input 
+                                  type="checkbox" 
+                                  class="form-check-input" 
+                                  name="courseService" 
+                                  value="Diploma in Bach Flower Therapy" 
+                                />
+                                <label>Diploma in Bach Flower Therapy</label>
                               </p>
                               <h6>$ 188</h6>
                             </div>
@@ -554,16 +550,16 @@
                         </div>
                       </div>
                       <div class="row g-3 py-4">
-                        <div class="col-md-12">
+                         <div class="col-md-12">
                           <label class="form-label required"
-                            >Brief Description / Goal</label
+                            >Brief Description of Your Concern / Goal</label
                           >
-                          <textarea
-                            class="form-select"
-                            placeholder="Please describe your goals for taking this course and any specific areas you'd like to focus on..."
+                          <input
+                            class="form-control rounded"
+                            placeholder="Please describe what you'd like to address in your session..."
+                            id="concern"
                             required
-                          >
-                          </textarea>
+                          />
                         </div>
                       </div>
                     </div>
@@ -580,12 +576,15 @@
                         </p>
                       </div>
                       <h5 class="section-title">Personal Information</h5>
-                      <div class="row mb-4">
-                        <div class="col-md-6">
-                          <label class="form-label required">Full Name</label>
+                       <div class="row mb-4">
+                          <div class="col-md-6">
+                          <label class="form-label required"
+                            >Full Name</label
+                          >
                           <input
-                            type="text"
                             class="form-control rounded"
+                            placeholder="Enter Your Full name"
+                            id="fullNameConsult"
                             required
                           />
                         </div>
@@ -593,30 +592,70 @@
                           <label class="form-label required"
                             >Age / Date of Birth</label
                           >
-                          <input type="date" class="form-control" required />
+                          <input
+                            type="date"
+                            class="form-control"
+                            required
+                            id="dobConsult"
+                          />
+                          <div class="valid-feedback">Valid age!</div>
+                          <div class="invalid-feedback">
+                            Please enter a Valid Age.
+                          </div>
                         </div>
                         <div class="col-md-6">
                           <label class="form-label required">Gender</label>
-                          <select class="form-select" required>
+                          <select class="form-select" required id="genderConsult">
                             <option value="">Select an option</option>
                             <option>Male</option>
                             <option>Female</option>
                             <option>Other</option>
                           </select>
+                          <div class="valid-feedback">Valid gender!</div>
+                          <div class="invalid-feedback">
+                            Please enter a valid gender.
+                          </div>
                         </div>
                         <div class="col-md-6">
                           <label class="form-label required">Email</label>
-                          <input type="email" class="form-control" required />
+                          <input
+                            type="email"
+                            class="form-control"
+                            required
+                            id="emailConsult"
+                          />
+                          <div class="valid-feedback">Valid Mail!</div>
+                          <div class="invalid-feedback">
+                            Please enter a valid mail.
+                          </div>
                         </div>
                         <div class="col-md-6">
                           <label class="form-label required"
                             >Phone / WhatsApp</label
                           >
-                          <input type="text" class="form-control" required />
+                          <input
+                            type="text"
+                            class="form-control"
+                            required
+                            id="wnumberConsult"
+                          />
+                          <div class="valid-feedback">Valid number!</div>
+                          <div class="invalid-feedback">
+                            Please enter a valid number.
+                          </div>
                         </div>
                         <div class="col-md-6">
                           <label class="form-label required">Address</label>
-                          <input type="text" class="form-control" required />
+                          <input
+                            type="text"
+                            class="form-control"
+                            required
+                            id="addressConsult"
+                          />
+                          <div class="valid-feedback">Valid address!</div>
+                          <div class="invalid-feedback">
+                            Please enter a valid address.
+                          </div>
                         </div>
                       </div>
                       <div class="col-6">
@@ -624,7 +663,7 @@
                           <label class="form-label required"
                             >Preferred Timezone</label
                           >
-                          <select class="form-select" required>
+                          <select class="form-select" id="timezone" required>
                             <option value="">Select an option</option>
                             <option>EST</option>
                             <option>CST</option>
@@ -638,7 +677,7 @@
                           <label class="form-label required"
                             >Consultation Mode</label
                           >
-                          <select class="form-select" required>
+                          <select class="form-select" id="consultMode" required>
                             <option value="">Select an option</option>
                             <option>Zoom</option>
                             <option>WhatsApp</option>
@@ -661,13 +700,13 @@
                                 class="form-check-label"
                                 for="checkDefault"
                               >
-                                <input
-                                  class="form-check-input"
-                                  type="checkbox"
-                                  value=""
-                                  id="checkDefault"
-                                />
-                                Stress & Emotional Balance Session
+                               <input 
+                              type="checkbox" 
+                              class="form-check-input" 
+                              name="consultationService" 
+                              value="Stress & Emotional Balance Session" 
+                            />
+                            <label class="form-check-label">Stress & Emotional Balance Session</label>
                               </h6>
                               <p class="px-4">
                                 Identify emotional stressors and restore balance
@@ -685,14 +724,13 @@
                                 class="form-check-label"
                                 for="checkDefault"
                               >
-                                <input
-                                  class="form-check-input"
-                                  type="checkbox"
-                                  value=""
-                                  id="checkDefault"
-                                />
-                                Mindfulness & Meditation for Anxiety, Sleep &
-                                Focus
+                                  <input 
+                              type="checkbox" 
+                              class="form-check-input" 
+                              name="consultationService" 
+                              value="Mindfulness & Meditation for Anxiety, Sleep & Focus" 
+                            />
+                            <label class="form-check-label">Mindfulness & Meditation for Anxiety, Sleep & Focus</label>
                               </h6>
                               <p class="px-4">
                                 Guided practices to reduce anxiety, improve
@@ -710,13 +748,13 @@
                                 class="form-check-label"
                                 for="checkDefault"
                               >
-                                <input
-                                  class="form-check-input"
-                                  type="checkbox"
-                                  value=""
-                                  id="checkDefault"
-                                />
-                                Holistic Wellness & Lifestyle Reset
+                                       <input 
+                              type="checkbox" 
+                              class="form-check-input" 
+                              name="consultationService" 
+                              value="Holistic Wellness & Lifestyle Reset" 
+                            />
+                                 <label class="form-check-label">Holistic Wellness & Lifestyle Reset</label>
                               </h6>
                               <p class="px-4">
                                 Practical strategies to restore overall mental,
@@ -734,13 +772,13 @@
                                 class="form-check-label"
                                 for="checkDefault"
                               >
-                                <input
-                                  class="form-check-input"
-                                  type="checkbox"
-                                  value=""
-                                  id="checkDefault"
-                                />
-                                Work-Life Balance & Burnout Reset
+                              <input 
+                              type="checkbox" 
+                              class="form-check-input" 
+                              name="consultationService" 
+                              value="Work-Life Balance & Burnout Reset" 
+                            />
+                                 <label class="form-check-label">Work-Life Balance & Burnout Reset</label>
                               </h6>
                               <p class="px-4">
                                 Prevent burnout and find equilibrium between
@@ -758,13 +796,13 @@
                                 class="form-check-label"
                                 for="checkDefault"
                               >
-                                <input
-                                  class="form-check-input"
-                                  type="checkbox"
-                                  value=""
-                                  id="checkDefault"
-                                />
-                                Emotional Trauma & Inner Child Healing
+                                 <input 
+                              type="checkbox" 
+                              class="form-check-input" 
+                              name="consultationService" 
+                              value="Emotional Trauma & Inner Child Healing" 
+                            />
+                                 <label class="form-check-label">Emotional Trauma & Inner Child Healing</label>
                               </h6>
                               <p class="px-4">
                                 Heal past emotional wounds, release trauma, and
@@ -784,14 +822,13 @@
                                 class="form-check-label"
                                 for="checkDefault"
                               >
-                                <input
-                                  class="form-check-input"
-                                  type="checkbox"
-                                  value=""
-                                  id="checkDefault"
-                                />
-                                Energy Protection & Healing for Sensitive
-                                Individuals
+                                <input 
+                              type="checkbox" 
+                              class="form-check-input" 
+                              name="consultationService" 
+                              value="Energy Protection & Healing for Sensitive Individuals" 
+                            />
+                                 <label class="form-check-label">Energy Protection & Healing for Sensitive Individuals</label>
                               </h6>
                               <p class="px-4">
                                 Shield yourself from negative energies while
@@ -809,13 +846,13 @@
                                 class="form-check-label"
                                 for="checkDefault"
                               >
-                                <input
-                                  class="form-check-input"
-                                  type="checkbox"
-                                  value=""
-                                  id="checkDefault"
-                                />
-                                Chakra Alignment & Emotional Flow
+                                <input 
+                              type="checkbox" 
+                              class="form-check-input" 
+                              name="consultationService" 
+                              value="Chakra Alignment & Emotional Flow" 
+                            />
+                                 <label class="form-check-label">Chakra Alignment & Emotional Flow</label>
                               </h6>
                               <p class="px-4">
                                 Align energy centers to support emotional
@@ -833,13 +870,13 @@
                                 class="form-check-label"
                                 for="checkDefault"
                               >
-                                <input
-                                  class="form-check-input"
-                                  type="checkbox"
-                                  value=""
-                                  id="checkDefault"
-                                />
-                                Life Path, Soul Purpose & Career Guidance
+                               <input 
+                              type="checkbox" 
+                              class="form-check-input" 
+                              name="consultationService" 
+                              value="Life Path, Soul Purpose & Career Guidance" 
+                            />
+                                 <label class="form-check-label">Life Path, Soul Purpose & Career Guidance</label>
                               </h6>
                               <p class="px-4">
                                 Explore emotional patterns, karmic influences,
@@ -857,13 +894,13 @@
                                 class="form-check-label"
                                 for="checkDefault"
                               >
-                                <input
-                                  class="form-check-input"
-                                  type="checkbox"
-                                  value=""
-                                  id="checkDefault"
-                                />
-                                Relationship Guidance & Emotional Intelligence
+                             <input 
+                              type="checkbox" 
+                              class="form-check-input" 
+                              name="consultationService" 
+                              value="Relationship Guidance & Emotional Intelligence" 
+                            />
+                                 <label class="form-check-label">Relationship Guidance & Emotional Intelligence</label>
                               </h6>
                               <p class="px-4">
                                 Improve empathy, communication, and connection
@@ -881,13 +918,13 @@
                                 class="form-check-label"
                                 for="checkDefault"
                               >
-                                <input
-                                  class="form-check-input"
-                                  type="checkbox"
-                                  value=""
-                                  id="checkDefault"
-                                />
-                                Bach Flower Remedy Consultation
+                               <input 
+                              type="checkbox" 
+                              class="form-check-input" 
+                              name="consultationService" 
+                              value="Bach Flower Remedy Consultation" 
+                            />
+                                 <label class="form-check-label">Bach Flower Remedy Consultation</label>
                               </h6>
                               <p class="px-4">
                                 Personalized remedies to address stress,
@@ -907,13 +944,13 @@
                                 class="form-check-label"
                                 for="checkDefault"
                               >
-                                <input
-                                  class="form-check-input"
-                                  type="checkbox"
-                                  value=""
-                                  id="checkDefault"
-                                />
-                                Holistic Emotional Reset (All-Inclusive)
+                              <input 
+                              type="checkbox" 
+                              class="form-check-input" 
+                              name="consultationService" 
+                              value="Holistic Emotional Reset (All-Inclusive)" 
+                            />
+                                 <label class="form-check-label">Holistic Emotional Reset (All-Inclusive)</label>
                               </h6>
                               <p class="px-4">
                                 Comprehensive session addressing emotional,
@@ -933,13 +970,13 @@
                                 class="form-check-label"
                                 for="checkDefault"
                               >
-                                <input
-                                  class="form-check-input"
-                                  type="checkbox"
-                                  value=""
-                                  id="checkDefault"
-                                />
-                                Other – Personal Guidance (All-Inclusive)
+                                 <input 
+                              type="checkbox" 
+                              class="form-check-input" 
+                              name="consultationService" 
+                              value="Other – Personal Guidance (All-Inclusive)" 
+                            />
+                                 <label class="form-check-label"> Other – Personal Guidance (All-Inclusive)</label>
                               </h6>
                               <p class="px-4">
                                 Tailored session covering emotional, mental,
@@ -961,13 +998,13 @@
                                 class="form-check-label"
                                 for="checkDefault"
                               >
-                                <input
-                                  class="form-check-input"
-                                  type="checkbox"
-                                  value=""
-                                  id="checkDefault"
-                                />
-                                Personalized Nutrition & Diet Planning
+                              <input 
+                              type="checkbox" 
+                              class="form-check-input" 
+                              name="consultationService" 
+                              value="Personalized Nutrition & Diet Planning" 
+                            />
+                                 <label class="form-check-label">Personalized Nutrition & Diet Planning</label>
                               </h6>
                               <p class="px-4">
                                 Tailored dietary guidance for energy, immunity,
@@ -985,13 +1022,13 @@
                                 class="form-check-label"
                                 for="checkDefault"
                               >
-                                <input
-                                  class="form-check-input"
-                                  type="checkbox"
-                                  value=""
-                                  id="checkDefault"
-                                />
-                                Detox & Digestive Support Consultation
+                                <input 
+                              type="checkbox" 
+                              class="form-check-input" 
+                              name="consultationService" 
+                              value="Detox & Digestive Support Consultation" 
+                            />
+                                 <label class="form-check-label">Detox & Digestive Support Consultation</label>
                               </h6>
                               <p class="px-4">
                                 Advice on natural detox, digestive health, and
@@ -1009,13 +1046,13 @@
                                 class="form-check-label"
                                 for="checkDefault"
                               >
-                                <input
-                                  class="form-check-input"
-                                  type="checkbox"
-                                  value=""
-                                  id="checkDefault"
-                                />
-                                Lifestyle & Wellness Diet Reset
+                                <input 
+                              type="checkbox" 
+                              class="form-check-input" 
+                              name="consultationService" 
+                              value="Lifestyle & Wellness Diet Reset" 
+                            />
+                                 <label class="form-check-label">Lifestyle & Wellness Diet Reset</label>
                               </h6>
                               <p class="px-4">
                                 Combine nutrition, habits, and lifestyle
@@ -1033,13 +1070,13 @@
                                 class="form-check-label"
                                 for="checkDefault"
                               >
-                                <input
-                                  class="form-check-input"
-                                  type="checkbox"
-                                  value=""
-                                  id="checkDefault"
-                                />
-                                Weight Management & Metabolism Support
+                                <input 
+                              type="checkbox" 
+                              class="form-check-input" 
+                              name="consultationService" 
+                              value="Weight Management & Metabolism Support" 
+                            />
+                                 <label class="form-check-label">Weight Management & Metabolism Support</label>
                               </h6>
                               <p class="px-4">
                                 Customized plans for healthy weight, metabolism,
@@ -1057,13 +1094,13 @@
                                 class="form-check-label"
                                 for="checkDefault"
                               >
-                                <input
-                                  class="form-check-input"
-                                  type="checkbox"
-                                  value=""
-                                  id="checkDefault"
-                                />
-                                Herbal & Naturopathy Diet Support
+                                <input 
+                              type="checkbox" 
+                              class="form-check-input" 
+                              name="consultationService" 
+                              value="Herbal & Naturopathy Diet Support" 
+                            />
+                                 <label class="form-check-label">Herbal & Naturopathy Diet Support</label>
                               </h6>
                               <p class="px-4">
                                 Guidance integrating herbs and naturopathy
@@ -1081,13 +1118,13 @@
                                 class="form-check-label"
                                 for="checkDefault"
                               >
-                                <input
-                                  class="form-check-input"
-                                  type="checkbox"
-                                  value=""
-                                  id="checkDefault"
-                                />
-                                Other
+                                 <input 
+                              type="checkbox" 
+                              class="form-check-input" 
+                              name="consultationService" 
+                              value="Other" 
+                            />
+                                 <label class="form-check-label">Other</label>
                               </h6>
                               <p class="px-4">
                                 Personal Guidance (all-inclusive: emotional,
@@ -1107,12 +1144,12 @@
                           <label class="form-label required"
                             >Brief Description of Your Concern / Goal</label
                           >
-                          <textarea
-                            class="form-select"
+                          <input
+                            class="form-control rounded"
                             placeholder="Please describe what you'd like to address in your session..."
+                            id="concern"
                             required
-                          >
-                          </textarea>
+                          />
                         </div>
                       </div>
                       <div class="row g-3 py-4">
@@ -1121,25 +1158,25 @@
                             >Current Medications / Health Conditions / Allergies
                             (Optional)</label
                           >
-                          <textarea
-                            class="form-select"
+                          <input
+                            class="form-control rounded"
                             placeholder="Please describe what you'd like to address in your session..."
+                            id="medications"
                             required
-                          >
-                          </textarea>
+                          />
                         </div>
                       </div>
-                      <div class="row g-3 py-4">
+                      <div class="row py-4">
                         <div class="col-md-12">
                           <label class="form-label required"
                             >Previous Holistic Practices Tried (Optional)</label
                           >
-                          <textarea
-                            class="form-select"
+                          <input
+                            class="form-control rounded"
                             placeholder="Please describe what you'd like to address in your session..."
+                            id="practices"
                             required
-                          >
-                          </textarea>
+                          />
                         </div>
                       </div>
                     </div>
@@ -1189,12 +1226,7 @@
                         </p>
                       </div>
                       <div class="form-check">
-                        <input
-                          class="form-check-input"
-                          type="checkbox"
-                          value=""
-                          id="checkDefault"
-                        />
+                       <input type="checkbox" id="refundPolicyCheck" />
                         <label class="form-check-label" for="checkDefault">
                           I have read and agree to the Cancellation & Refund
                           Policy
@@ -1204,7 +1236,7 @@
                     <button
                       class="btn btn-primary px-3 py-1 fs-5"
                       type="submit"
-                       onclick="sendEnrollmentEmail()"
+                      onclick="sendEmailForm(event)"
                     >
                       Enroll Now
                     </button>
@@ -1348,14 +1380,67 @@
         </div>
       </footer>
     </section>
-    <script src="./js/form.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-<script src="./js/email-2.js"></script>
-    <script src="./js/script.js"></script>
+    <script src="./js/form.js"></script>
     <script src="./js/email-2.js"></script>
+    <script src="./js/script.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const form = document.querySelector(".needs-validation");
+        const consultation = document.getElementById("consultation");
+        const courseEnrollment = document.getElementById("courseenrollment");
+        const consultBtn = document.querySelector('[data-id="consultation"]');
+        const courseBtn = document.querySelector(
+          '[data-id="courseenrollment"]'
+        );
+
+        // Bootstrap default validation behavior
+        form.addEventListener("submit", (event) => {
+          if (!form.checkValidity()) {
+            event.preventDefault();
+            event.stopPropagation();
+          }
+          form.classList.add("was-validated");
+        });
+
+        consultBtn.addEventListener("click", () => {
+          activateSection(consultation, courseEnrollment);
+          consultBtn.classList.add("btnactive");
+          courseBtn.classList.remove("btnactive");
+        });
+
+        courseBtn.addEventListener("click", () => {
+          activateSection(courseEnrollment, consultation);
+          courseBtn.classList.add("btnactive");
+          consultBtn.classList.remove("btnactive");
+        });
+
+        function activateSection(activeSection, inactiveSection) {
+          activeSection.classList.add("active");
+          inactiveSection.classList.remove("active");
+
+          inactiveSection
+            .querySelectorAll("input, select, textarea")
+            .forEach((el) => {
+              el.disabled = true;
+            });
+
+          activeSection
+            .querySelectorAll("input, select, textarea")
+            .forEach((el) => {
+              el.disabled = false;
+            });
+        }
+
+        courseEnrollment
+          .querySelectorAll("input, select, textarea")
+          .forEach((el) => {
+            el.disabled = true;
+          });
+      });
+    </script>
   </body>
 </html>

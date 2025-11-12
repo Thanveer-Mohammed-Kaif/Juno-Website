@@ -13,7 +13,7 @@ function sendEmailIndex() {
     !formData.phone ||
     !formData.message
   ) {
-    alert("Please fill in all the required fields");
+    alert("Please fill in all the   fields");
   } else {
     emailjs.send("service_kiyxotg", "template_myl93bo", formData).then(() => {
       console.log(
@@ -47,7 +47,7 @@ function sendEmailContact() {
     !formData.phone ||
     !formData.message
   ) {
-    alert("Please fill in all the required fields");
+    alert("Please fill in all the   fields");
   } else {
     emailjs.send("service_kiyxotg", "template_myl93bo", formData).then(() => {
       console.log(
@@ -81,7 +81,7 @@ function sendEmailOurService() {
     !formData.phone ||
     !formData.message
   ) {
-    alert("Please fill in all the required fields");
+    alert("Please fill in all the   fields");
   } else {
     emailjs.send("service_kiyxotg", "template_myl93bo", formData).then(() => {
       console.log(

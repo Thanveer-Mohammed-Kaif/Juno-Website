@@ -63,6 +63,13 @@ body {
   overflow: hidden;
 }
 
+.content {
+  display: none;
+}
+.content.active {
+  display: block;
+}
+
 .product_image {
   width: 40vw;
 }
@@ -161,7 +168,6 @@ body {
   text-align: justify;
   max-height: 100%;
   color: #333;
-  overflow-y: scroll;
 }
 
 .content img {
@@ -496,18 +502,13 @@ label {
   font-weight: 500;
   color: #333;
 }
-/* .form-control,
-.form-select {
-  border-radius: 8px;
-  padding: 10px 12px;
-  border: 1px solid #ddd;
-} */
+
 .form-control:focus,
 .form-select:focus {
   border-color: #0b7c74;
   box-shadow: 0px 1px 4px 0px #00000029;
 }
-.required::after {
+.form-select::after {
   content: " *";
   color: red;
 }
